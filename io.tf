@@ -19,18 +19,18 @@ variable "support_phone_number" {
 }
 
 variable "city" {
-  description = ""
+  description = "Org's City"
   type        = string
 }
 
 
 variable "state" {
-  description = ""
+  description = "Org's State (not abbreviation!)"
   type        = string
 }
 
 variable "logo" {
-  description = ""
+  description = "Full relative file path to logo (./filename)"
   type        = string
 }
 

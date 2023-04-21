@@ -61,3 +61,8 @@ variable "secondary_color"{
   default = "ebebed"
   type = string
 }
+
+variable "favicon"{
+  description = "Full relative file path to the Favicon"
+  type = string
+}

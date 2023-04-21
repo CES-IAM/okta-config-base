@@ -34,6 +34,10 @@ variable "logo" {
   type        = string
 }
 
+variable "bglogo"{
+  description = "Full relative file path to background image"
+  type = string
+}
 
 variable "billing_contact_user" {
   description = "Okta ID of the Billing Contact User"
@@ -46,4 +50,14 @@ variable "technical_contact_user" {
   type        = string
 }
 
+variable "primary_color"{
+  description = "Primary Color (HEX)"
+  default = "#1662dd"
+  type = string
+}
 
+variable "secondary_color"{
+  description = "Secondary Color (HEX)"
+  default = "ebebed"
+  type = string
+}

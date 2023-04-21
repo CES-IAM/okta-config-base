@@ -34,9 +34,9 @@ variable "logo" {
   type        = string
 }
 
-variable "bglogo"{
+variable "bglogo" {
   description = "Full relative file path to background image"
-  type = string
+  type        = string
 }
 
 variable "billing_contact_user" {
@@ -50,19 +50,29 @@ variable "technical_contact_user" {
   type        = string
 }
 
-variable "primary_color"{
+variable "primary_color" {
   description = "Primary Color (HEX)"
-  default = "#1662dd"
-  type = string
+  default     = "#1662dd"
+  type        = string
 }
 
-variable "secondary_color"{
+variable "secondary_color" {
   description = "Secondary Color (HEX)"
-  default = "ebebed"
-  type = string
+  default     = "#ebebed"
+  type        = string
 }
 
-variable "favicon"{
+variable "primary_contrast" {
+  description = "Primary Contrast Color (HEX)"
+  default     = "#ffffff"
+  type        = string
+}
+variable "secondary_contrast" {
+  description = "Secondary Contrast Color (HEX)"
+  default     = "#000000"
+  type        = string
+}
+variable "favicon" {
   description = "Full relative file path to the Favicon"
-  type = string
+  type        = string
 }

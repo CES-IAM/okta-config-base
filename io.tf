@@ -76,3 +76,22 @@ variable "favicon" {
   description = "Full relative file path to the Favicon"
   type        = string
 }
+
+variable "ettpv"{
+  description = "Email Template Touchpoint Variant"
+  default = "OKTA_DEFAULT"
+}
+
+variable "eudtpv"{
+  description = "End User Dashboard Touchpoint Variant"
+  default = "OKTA_DEFAULT"
+}
+
+variable "eptpv"{
+  description = "Error Page Touchpoint Variant"
+  default = "OKTA_DEFAULT"
+}
+variable "siptpv"{
+  description = "Sign In Page Touchpoint Variant"
+  default = "OKTA_DEFAULT"
+}

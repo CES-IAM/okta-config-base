@@ -77,21 +77,21 @@ variable "favicon" {
   type        = string
 }
 
-variable "ettpv"{
+variable "email_template_touch_point_variant"{
   description = "Email Template Touchpoint Variant"
   default = "OKTA_DEFAULT"
 }
 
-variable "eudtpv"{
+variable "end_user_dashboard_touch_point_variant"{
   description = "End User Dashboard Touchpoint Variant"
   default = "OKTA_DEFAULT"
 }
 
-variable "eptpv"{
+variable "error_page_touch_point_variant"{
   description = "Error Page Touchpoint Variant"
   default = "OKTA_DEFAULT"
 }
-variable "siptpv"{
+variable "sign_in_page_touch_point_variant"{
   description = "Sign In Page Touchpoint Variant"
   default = "OKTA_DEFAULT"
 }

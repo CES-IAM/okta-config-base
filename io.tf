@@ -34,11 +34,11 @@ variable "state" {
   type        = string
 }
 
-/* variable "logo" {
+ variable "logo" {
   description = "Full relative file path to logo (./filename)"
   type        = string
 }
-
+/*
 variable "bglogo" {
   description = "Full relative file path to background image"
   type        = string

@@ -1,3 +1,8 @@
+/*variable "brand_id"{
+  description = "Brand ID to configure"
+  type = string
+}*/
+
 variable "company_name" {
   description = "Name of the Org"
   type        = string
@@ -29,7 +34,7 @@ variable "state" {
   type        = string
 }
 
-variable "logo" {
+/* variable "logo" {
   description = "Full relative file path to logo (./filename)"
   type        = string
 }
@@ -37,7 +42,7 @@ variable "logo" {
 variable "bglogo" {
   description = "Full relative file path to background image"
   type        = string
-}
+} */
 
 variable "billing_contact_user" {
   description = "Okta ID of the Billing Contact User"
@@ -50,7 +55,7 @@ variable "technical_contact_user" {
   type        = string
 }
 
-variable "primary_color" {
+/* variable "primary_color" {
   description = "Primary Color (HEX)"
   default     = "#1662dd"
   type        = string
@@ -75,7 +80,7 @@ variable "secondary_contrast" {
 variable "favicon" {
   description = "Full relative file path to the Favicon"
   type        = string
-}
+} */
 
 variable "email_template_touch_point_variant"{
   description = "Email Template Touchpoint Variant"
